@@ -5,16 +5,16 @@ Recent advances in machine learning (ML) offer substantial potential for product
 ## Repository Content
 This repository contains the key artefacts created and used in the publication:
 1. **Model configuration (JSON)**
-2. **Knowledge graph documentation(JSON)**
-3. **Evaluation dataset(JSON)**
+2. **Knowledge graph documentation (JSON)**
+3. **Evaluation dataset (JSON)**
 
-### Model configuration(JSON)
+### Model configuration (JSON)
 Contains the decoding parameters, system settings, and LLM configurations used in all experimental conditions.
 
-### Knowledge graph documentation(JSON) 
+### Knowledge graph documentation (JSON) 
 Provides the exported structure and size of the domain-specific knowledge graph, including phases, activities, methods, design tasks, subtasks, and atomic ML tasks.
 
-### Evaluation dataset(JSON)
+### Evaluation dataset (JSON)
 The dataset used for evaluating the large language models consists of two key elements: 
 - **Product development-related problem formulations** extracted from the identified publications
 - **Machine learning algorithms** applied to address these product development-related problems in the publications
