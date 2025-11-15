@@ -1,1 +1,21 @@
-# DESIGN2026
+# Repository for the publication: Graph retrieval-augmented generation for enhancing LLM-based ML algorithm recommendation in product development
+## Abstract
+Recent advances in machine learning (ML) offer substantial potential for product development (PD), yet adoption remains limited. A crucial step is identifying suitable ML algorithms for a given PD problem, which requires translating domain-specific formulations into appropriate ML tasks. Prior work indicates that LLMs struggle with this step due to insufficient domain knowledge. Therefore, this study investigates whether a domain-specific GraphRAG approach improves model performance by enriching prompts with structured context from a PD knowledge graph.
+
+## Repository Content
+This repository contains the key artefacts created and used in the publication:
+1. **Model configuration (JSON)**
+2. **Knowledge graph documentation(JSON)**
+3. **Evaluation dataset(JSON)**
+
+### Model configuration(JSON)
+Contains the decoding parameters, system settings, and LLM configurations used in all experimental conditions.
+
+### Knowledge graph documentation(JSON) 
+Provides the exported structure and size of the domain-specific knowledge graph, including phases, activities, methods, design tasks, subtasks, and atomic ML tasks.
+
+### Evaluation dataset(JSON)
+The dataset used for evaluating the large language models consists of two key elements: 
+- **Product development-related problem formulations** extracted from the identified publications
+- **Machine learning algorithms** applied to address these product development-related problems in the publications
+Currently, the dataset comprises 56 problem formulations along with their corresponding applied machine learning algorithms.
