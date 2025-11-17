@@ -1,0 +1,26 @@
+{
+  "Phase": {
+    "description": "A Phase represents a major stage of the PD process, instantiated in this study by the first phase, TC.",
+    "count": 1
+  },
+  "Activity": {
+    "description": "Each phase of the PD process comprises several activities, representing a coherent group of related design tasks. In this study, the instantiated activity is Clarification of problem or task.",
+    "count": 1
+  },
+  "DesignTask": {
+    "description": "Each design task represents a distinct and actionable unit of work defined by specific objectives and content. Example: Identification of customer needs.",
+    "count": 16
+  },
+  "Method": {
+    "description": "A method denotes a systematic approach that guides the execution of a design task, for example a SWOT analysis.",
+    "count": 3
+  },
+  "Subtask": {
+    "description": "A subtask represents a refinement of a design task into an operational step that may be further decomposed into ML-operable tasks. Syntax: [Operation] of [Object] from [Context] to/by/for/between [Goal]. Example: Identification of requirements from standards.",
+    "count": 55
+  },
+  "AtomicMLTask": {
+    "description": "An atomic ML task provides a formalized description of an ML problem, including learning type and input–output structure. Syntax: [ML operation] of [Input] to [Verb] [Output]. Example: Binary classification of sentences to assign a label.",
+    "count": 17
+  }
+}

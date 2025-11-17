@@ -1,0 +1,27 @@
+{
+  "llm": {
+    "openai_model": "gpt-4o-mini",
+    "gemini_model": "gemini-2.5-flash",
+    "anthropic_model": "claude-haiku-4-5",
+    "temperature": 0.2,
+    "max_tokens": 1024
+  },
+  "retriever": {
+    "alpha": 0.7,
+    "k_search_per_label": 12,
+    "k_final_per_label": 5,
+    "topn_across": 2,
+    "min_norm": 0.4,
+    "within_delta": 0.3
+  },
+  "context_builder": {
+    "max_segments": 2,
+    "max_paths_per_seed": 8
+  },
+  "embedding": {
+    "model": "BAAI/bge-m3",
+    "use_prefix": true,
+    "query_prefix": "query: ",
+    "passage_prefix": "passage: "
+  }
+}
