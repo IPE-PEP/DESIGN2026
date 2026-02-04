@@ -9,18 +9,18 @@
   },
   "DesignTask": {
     "description": "Each design task represents a distinct and actionable unit of work defined by specific objectives and content. Example: Identification of customer needs.",
-    "count": 16
+    "count": 35
   },
   "Method": {
     "description": "A method denotes a systematic approach that guides the execution of a design task, for example a SWOT analysis.",
-    "count": 3
+    "count": 2
   },
   "Subtask": {
     "description": "A subtask represents a refinement of a design task into an operational step that may be further decomposed into ML-operable tasks. Syntax: [Operation] of [Object] from [Context] to/by/for/between [Goal]. Example: Identification of requirements from standards.",
-    "count": 55
+    "count": 110
   },
   "AtomicMLTask": {
     "description": "An atomic ML task provides a formalized description of an ML problem, including learning type and input–output structure. Syntax: [ML operation] of [Input] to [Verb] [Output]. Example: Binary classification of sentences to assign a label.",
-    "count": 17
+    "count": 20
   }
 }
